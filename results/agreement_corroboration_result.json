@@ -1,0 +1,3005 @@
+{
+  "0": {
+    "fold": 0,
+    "n_fp_cases": 16,
+    "n_cystpos": 50,
+    "n_cases": 98,
+    "recovery_gate_need": 4,
+    "baseline_unfiltered": {
+      "meanHEC": 0.902,
+      "K": 0.9752,
+      "M": 0.8794,
+      "T": 0.8514,
+      "cystDice_N98": 0.6763,
+      "cystDice_NaNexcl": 0.5194
+    },
+    "tau": {
+      "0.0": {
+        "fp_cases_cleared": 3,
+        "tp_cases_affected": 9,
+        "tp_components_lost": 88,
+        "fn_case_flips": 2,
+        "meanHEC": 0.902,
+        "K": 0.9752,
+        "M": 0.8793,
+        "T": 0.8514,
+        "cystDice_N98": 0.7023,
+        "cystDice_NaNexcl": 0.5369,
+        "TPside_corrob": 0.667,
+        "tp_comp_total": 264,
+        "FPside_corrob": 0.786,
+        "fp_comp_total": 351,
+        "detail": [
+          {
+            "case": "KiTS23_00006.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00054.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00099.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00145.nii.gz",
+            "removed_comps": 23,
+            "tp_comp_lost": 21,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00158.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00185.nii.gz",
+            "removed_comps": 6,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00223.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00227.nii.gz",
+            "removed_comps": 62,
+            "tp_comp_lost": 55,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00246.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00270.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00294.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00407.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00438.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00458.nii.gz",
+            "removed_comps": 20,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00470.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 3,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00471.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00473.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00509.nii.gz",
+            "removed_comps": 15,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00514.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00515.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00521.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00522.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00530.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00540.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00566.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00568.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 4,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00570.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "2.0": {
+        "fp_cases_cleared": 2,
+        "tp_cases_affected": 9,
+        "tp_components_lost": 57,
+        "fn_case_flips": 2,
+        "meanHEC": 0.9019,
+        "K": 0.9752,
+        "M": 0.8793,
+        "T": 0.8514,
+        "cystDice_N98": 0.6922,
+        "cystDice_NaNexcl": 0.5287,
+        "TPside_corrob": 0.784,
+        "tp_comp_total": 264,
+        "FPside_corrob": 0.821,
+        "fp_comp_total": 351,
+        "detail": [
+          {
+            "case": "KiTS23_00006.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00054.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00099.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00145.nii.gz",
+            "removed_comps": 13,
+            "tp_comp_lost": 11,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00158.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00185.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00223.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00227.nii.gz",
+            "removed_comps": 42,
+            "tp_comp_lost": 37,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00246.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00270.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00294.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00407.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00438.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00458.nii.gz",
+            "removed_comps": 19,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00470.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 3,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00471.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00473.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00509.nii.gz",
+            "removed_comps": 15,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00514.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00515.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00521.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00522.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00530.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00540.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00566.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00568.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "4.0": {
+        "fp_cases_cleared": 2,
+        "tp_cases_affected": 9,
+        "tp_components_lost": 23,
+        "fn_case_flips": 2,
+        "meanHEC": 0.9019,
+        "K": 0.9752,
+        "M": 0.8793,
+        "T": 0.8514,
+        "cystDice_N98": 0.6922,
+        "cystDice_NaNexcl": 0.5287,
+        "TPside_corrob": 0.913,
+        "tp_comp_total": 264,
+        "FPside_corrob": 0.835,
+        "fp_comp_total": 351,
+        "detail": [
+          {
+            "case": "KiTS23_00006.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00054.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00099.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00145.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 2,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00158.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00223.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00227.nii.gz",
+            "removed_comps": 16,
+            "tp_comp_lost": 12,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00246.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00270.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00294.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00407.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00438.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00458.nii.gz",
+            "removed_comps": 18,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00470.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 3,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00471.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00473.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00509.nii.gz",
+            "removed_comps": 15,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00514.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00515.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00521.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00522.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00530.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00540.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00566.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00568.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "6.0": {
+        "fp_cases_cleared": 2,
+        "tp_cases_affected": 7,
+        "tp_components_lost": 13,
+        "fn_case_flips": 2,
+        "meanHEC": 0.902,
+        "K": 0.9752,
+        "M": 0.8794,
+        "T": 0.8514,
+        "cystDice_N98": 0.6926,
+        "cystDice_NaNexcl": 0.5293,
+        "TPside_corrob": 0.951,
+        "tp_comp_total": 264,
+        "FPside_corrob": 0.835,
+        "fp_comp_total": 351,
+        "detail": [
+          {
+            "case": "KiTS23_00006.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00054.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00099.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00145.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00158.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00223.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00227.nii.gz",
+            "removed_comps": 9,
+            "tp_comp_lost": 5,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00246.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00270.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00294.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00407.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00438.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00458.nii.gz",
+            "removed_comps": 18,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00470.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 3,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00471.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00473.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00509.nii.gz",
+            "removed_comps": 15,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00514.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00515.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00521.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00522.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00530.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00540.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00566.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "10.0": {
+        "fp_cases_cleared": 2,
+        "tp_cases_affected": 5,
+        "tp_components_lost": 6,
+        "fn_case_flips": 2,
+        "meanHEC": 0.902,
+        "K": 0.9752,
+        "M": 0.8793,
+        "T": 0.8514,
+        "cystDice_N98": 0.6927,
+        "cystDice_NaNexcl": 0.5294,
+        "TPside_corrob": 0.977,
+        "tp_comp_total": 264,
+        "FPside_corrob": 0.843,
+        "fp_comp_total": 351,
+        "detail": [
+          {
+            "case": "KiTS23_00006.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00054.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00099.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00145.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00158.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00223.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00227.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00270.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00294.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00407.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00438.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00458.nii.gz",
+            "removed_comps": 17,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00470.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 2,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00471.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00473.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00509.nii.gz",
+            "removed_comps": 15,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00514.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00515.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00521.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00522.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00530.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00540.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00566.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      }
+    }
+  },
+  "1": {
+    "fold": 1,
+    "n_fp_cases": 25,
+    "n_cystpos": 50,
+    "n_cases": 99,
+    "recovery_gate_need": 7,
+    "baseline_unfiltered": {
+      "meanHEC": 0.8845,
+      "K": 0.9783,
+      "M": 0.8459,
+      "T": 0.8294,
+      "cystDice_N98": 0.5718,
+      "cystDice_NaNexcl": 0.4348
+    },
+    "tau": {
+      "0.0": {
+        "fp_cases_cleared": 8,
+        "tp_cases_affected": 9,
+        "tp_components_lost": 16,
+        "fn_case_flips": 0,
+        "meanHEC": 0.8852,
+        "K": 0.9783,
+        "M": 0.8478,
+        "T": 0.8294,
+        "cystDice_N98": 0.6517,
+        "cystDice_NaNexcl": 0.4854,
+        "TPside_corrob": 0.906,
+        "tp_comp_total": 171,
+        "FPside_corrob": 0.815,
+        "fp_comp_total": 222,
+        "detail": [
+          {
+            "case": "KiTS23_00004.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00008.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00010.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00041.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00046.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00049.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00069.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00094.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00119.nii.gz",
+            "removed_comps": 10,
+            "tp_comp_lost": 8,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00129.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00176.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00188.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00221.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00244.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00255.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00271.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00297.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00299.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00422.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00434.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00448.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00451.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00462.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00468.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00476.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00499.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00501.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00505.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00518.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00524.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00538.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00548.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00551.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00555.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00584.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "2.0": {
+        "fp_cases_cleared": 8,
+        "tp_cases_affected": 8,
+        "tp_components_lost": 15,
+        "fn_case_flips": 0,
+        "meanHEC": 0.8852,
+        "K": 0.9783,
+        "M": 0.8478,
+        "T": 0.8294,
+        "cystDice_N98": 0.6517,
+        "cystDice_NaNexcl": 0.4854,
+        "TPside_corrob": 0.912,
+        "tp_comp_total": 171,
+        "FPside_corrob": 0.815,
+        "fp_comp_total": 222,
+        "detail": [
+          {
+            "case": "KiTS23_00004.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00008.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00010.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00041.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00046.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00049.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00069.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00094.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00119.nii.gz",
+            "removed_comps": 10,
+            "tp_comp_lost": 8,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00129.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00176.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00188.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00221.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00244.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00255.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00271.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00297.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00299.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00422.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00434.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00448.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00451.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00462.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00476.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00499.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00501.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00505.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00518.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00524.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00538.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00548.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00551.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00555.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00584.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "4.0": {
+        "fp_cases_cleared": 8,
+        "tp_cases_affected": 8,
+        "tp_components_lost": 15,
+        "fn_case_flips": 0,
+        "meanHEC": 0.8852,
+        "K": 0.9783,
+        "M": 0.8478,
+        "T": 0.8294,
+        "cystDice_N98": 0.6516,
+        "cystDice_NaNexcl": 0.4853,
+        "TPside_corrob": 0.912,
+        "tp_comp_total": 171,
+        "FPside_corrob": 0.82,
+        "fp_comp_total": 222,
+        "detail": [
+          {
+            "case": "KiTS23_00004.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00008.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00010.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00041.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00046.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00049.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00069.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00094.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00119.nii.gz",
+            "removed_comps": 10,
+            "tp_comp_lost": 8,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00129.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00176.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00188.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00221.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00244.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00255.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00271.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00297.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00299.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00422.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00434.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00448.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00451.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00462.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00476.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00499.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00501.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00505.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00518.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00524.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00538.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00548.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00551.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00555.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00584.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "6.0": {
+        "fp_cases_cleared": 8,
+        "tp_cases_affected": 8,
+        "tp_components_lost": 15,
+        "fn_case_flips": 0,
+        "meanHEC": 0.8852,
+        "K": 0.9783,
+        "M": 0.8478,
+        "T": 0.8294,
+        "cystDice_N98": 0.6516,
+        "cystDice_NaNexcl": 0.4853,
+        "TPside_corrob": 0.912,
+        "tp_comp_total": 171,
+        "FPside_corrob": 0.824,
+        "fp_comp_total": 222,
+        "detail": [
+          {
+            "case": "KiTS23_00004.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00008.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00010.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00041.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00046.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00049.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00069.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00094.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00119.nii.gz",
+            "removed_comps": 10,
+            "tp_comp_lost": 8,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00129.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00176.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00188.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00221.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00244.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00255.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00271.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00297.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00299.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00422.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00434.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00448.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00451.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00462.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00476.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00499.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00501.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00505.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00518.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00524.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00538.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00548.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00551.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00555.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00584.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "10.0": {
+        "fp_cases_cleared": 8,
+        "tp_cases_affected": 7,
+        "tp_components_lost": 14,
+        "fn_case_flips": 0,
+        "meanHEC": 0.8851,
+        "K": 0.9783,
+        "M": 0.8477,
+        "T": 0.8294,
+        "cystDice_N98": 0.6517,
+        "cystDice_NaNexcl": 0.4854,
+        "TPside_corrob": 0.918,
+        "tp_comp_total": 171,
+        "FPside_corrob": 0.842,
+        "fp_comp_total": 222,
+        "detail": [
+          {
+            "case": "KiTS23_00004.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00008.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00010.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00041.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00046.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00049.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00069.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00094.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00119.nii.gz",
+            "removed_comps": 10,
+            "tp_comp_lost": 8,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00129.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00176.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00188.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00221.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00244.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00255.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00271.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00297.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00299.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00422.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00448.nii.gz",
+            "removed_comps": 4,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00462.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00476.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00499.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00501.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00505.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00518.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00524.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00538.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00548.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00551.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00555.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          }
+        ]
+      }
+    }
+  },
+  "2": {
+    "fold": 2,
+    "n_fp_cases": 21,
+    "n_cystpos": 50,
+    "n_cases": 98,
+    "recovery_gate_need": 6,
+    "baseline_unfiltered": {
+      "meanHEC": 0.8836,
+      "K": 0.9756,
+      "M": 0.8376,
+      "T": 0.8378,
+      "cystDice_N98": 0.6477,
+      "cystDice_NaNexcl": 0.5138
+    },
+    "tau": {
+      "0.0": {
+        "fp_cases_cleared": 5,
+        "tp_cases_affected": 7,
+        "tp_components_lost": 12,
+        "fn_case_flips": 2,
+        "meanHEC": 0.8844,
+        "K": 0.9756,
+        "M": 0.8398,
+        "T": 0.8378,
+        "cystDice_N98": 0.6885,
+        "cystDice_NaNexcl": 0.5375,
+        "TPside_corrob": 0.897,
+        "tp_comp_total": 117,
+        "FPside_corrob": 0.476,
+        "fp_comp_total": 145,
+        "detail": [
+          {
+            "case": "KiTS23_00015.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00028.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00037.nii.gz",
+            "removed_comps": 7,
+            "tp_comp_lost": 6,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00042.nii.gz",
+            "removed_comps": 35,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00064.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00073.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00081.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00098.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00100.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00107.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00134.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00143.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00177.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00192.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00204.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00225.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00228.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00254.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00274.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00403.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00431.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00433.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00442.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00463.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00466.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00469.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00493.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00511.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00543.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00545.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00554.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00561.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "2.0": {
+        "fp_cases_cleared": 5,
+        "tp_cases_affected": 7,
+        "tp_components_lost": 10,
+        "fn_case_flips": 2,
+        "meanHEC": 0.8844,
+        "K": 0.9756,
+        "M": 0.8398,
+        "T": 0.8378,
+        "cystDice_N98": 0.6885,
+        "cystDice_NaNexcl": 0.5375,
+        "TPside_corrob": 0.915,
+        "tp_comp_total": 117,
+        "FPside_corrob": 0.476,
+        "fp_comp_total": 145,
+        "detail": [
+          {
+            "case": "KiTS23_00015.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00028.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00037.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 4,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00042.nii.gz",
+            "removed_comps": 35,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00064.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00073.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00081.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00098.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00100.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00107.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00134.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00143.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00177.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00192.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00204.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00225.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00228.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00254.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00274.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00403.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00431.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00433.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00442.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00463.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00466.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00469.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00493.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00511.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00543.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00545.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00554.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00561.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "4.0": {
+        "fp_cases_cleared": 5,
+        "tp_cases_affected": 6,
+        "tp_components_lost": 6,
+        "fn_case_flips": 2,
+        "meanHEC": 0.8844,
+        "K": 0.9756,
+        "M": 0.8398,
+        "T": 0.8378,
+        "cystDice_N98": 0.6885,
+        "cystDice_NaNexcl": 0.5375,
+        "TPside_corrob": 0.949,
+        "tp_comp_total": 117,
+        "FPside_corrob": 0.497,
+        "fp_comp_total": 145,
+        "detail": [
+          {
+            "case": "KiTS23_00015.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00028.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00037.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00042.nii.gz",
+            "removed_comps": 35,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00064.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00073.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00081.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00098.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00100.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00107.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00134.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00143.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00177.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00192.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00204.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00225.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00228.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00254.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00274.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00403.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00431.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00442.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00463.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00466.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00469.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00493.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00511.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00545.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00554.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00561.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "6.0": {
+        "fp_cases_cleared": 5,
+        "tp_cases_affected": 5,
+        "tp_components_lost": 5,
+        "fn_case_flips": 2,
+        "meanHEC": 0.8844,
+        "K": 0.9756,
+        "M": 0.8397,
+        "T": 0.8378,
+        "cystDice_N98": 0.6885,
+        "cystDice_NaNexcl": 0.5375,
+        "TPside_corrob": 0.957,
+        "tp_comp_total": 117,
+        "FPside_corrob": 0.503,
+        "fp_comp_total": 145,
+        "detail": [
+          {
+            "case": "KiTS23_00015.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00028.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00037.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00042.nii.gz",
+            "removed_comps": 35,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00064.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00073.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00081.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00098.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00100.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00107.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00134.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00143.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00177.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00192.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00204.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00225.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00228.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00254.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00274.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00403.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00431.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00442.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00463.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00466.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00469.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00493.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00511.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00545.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00554.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00561.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      },
+      "10.0": {
+        "fp_cases_cleared": 5,
+        "tp_cases_affected": 5,
+        "tp_components_lost": 5,
+        "fn_case_flips": 2,
+        "meanHEC": 0.8844,
+        "K": 0.9756,
+        "M": 0.8397,
+        "T": 0.8378,
+        "cystDice_N98": 0.6885,
+        "cystDice_NaNexcl": 0.5375,
+        "TPside_corrob": 0.957,
+        "tp_comp_total": 117,
+        "FPside_corrob": 0.503,
+        "fp_comp_total": 145,
+        "detail": [
+          {
+            "case": "KiTS23_00015.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00028.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00037.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00042.nii.gz",
+            "removed_comps": 35,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00064.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00073.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00081.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00098.nii.gz",
+            "removed_comps": 5,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00100.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00107.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00134.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00143.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00177.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00192.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00204.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00225.nii.gz",
+            "removed_comps": 3,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00228.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00254.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00274.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00403.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00431.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00442.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00463.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": true
+          },
+          {
+            "case": "KiTS23_00466.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00469.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 1,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00493.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00511.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00545.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00554.nii.gz",
+            "removed_comps": 2,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          },
+          {
+            "case": "KiTS23_00561.nii.gz",
+            "removed_comps": 1,
+            "tp_comp_lost": 0,
+            "fp_case_cleared": false
+          }
+        ]
+      }
+    }
+  }
+}

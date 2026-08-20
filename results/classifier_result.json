@@ -1,0 +1,93 @@
+{
+  "model": "LogisticRegression(L2, class_weight=balanced), StandardScaler; nested GroupKFold-by-case outer=5 inner=3",
+  "hyperparameter_and_threshold": "C and operating-point threshold BOTH selected on inner, validated on outer (see per_fold_settings)",
+  "per_fold_settings": [
+    {
+      "outer_fold": 0,
+      "inner_selected_C": 10.0,
+      "inner_mean_AUC": 0.654,
+      "inner_selected_threshold": 0.787,
+      "outer_test_n": 188
+    },
+    {
+      "outer_fold": 1,
+      "inner_selected_C": 1.0,
+      "inner_mean_AUC": 0.703,
+      "inner_selected_threshold": 0.762,
+      "outer_test_n": 188
+    },
+    {
+      "outer_fold": 2,
+      "inner_selected_C": 10.0,
+      "inner_mean_AUC": 0.673,
+      "inner_selected_threshold": 0.793,
+      "outer_test_n": 188
+    },
+    {
+      "outer_fold": 3,
+      "inner_selected_C": 0.1,
+      "inner_mean_AUC": 0.675,
+      "inner_selected_threshold": null,
+      "outer_test_n": 188
+    },
+    {
+      "outer_fold": 4,
+      "inner_selected_C": 10.0,
+      "inner_mean_AUC": 0.705,
+      "inner_selected_threshold": null,
+      "outer_test_n": 187
+    }
+  ],
+  "component_level": {
+    "overall": {
+      "tag": "overall",
+      "FP_comp": 215,
+      "TP_comp": 724,
+      "FP_removed": 10,
+      "TP_lost": 11,
+      "recovery_frac": 0.047,
+      "net_positive": false,
+      "meaningful_ge25pct": false,
+      "outer_AUC_illustration": 0.679
+    },
+    "small_lt267": {
+      "tag": "small",
+      "FP_comp": 170,
+      "TP_comp": 298,
+      "FP_removed": 10,
+      "TP_lost": 11,
+      "recovery_frac": 0.059,
+      "net_positive": false,
+      "meaningful_ge25pct": false,
+      "outer_AUC_illustration": 0.557
+    },
+    "large_ge267": {
+      "tag": "large",
+      "FP_comp": 45,
+      "TP_comp": 426,
+      "FP_removed": 0,
+      "TP_lost": 0,
+      "recovery_frac": 0.0,
+      "net_positive": false,
+      "meaningful_ge25pct": false,
+      "outer_AUC_illustration": 0.613
+    }
+  },
+  "case_level_alongside": {
+    "FP_cases": 103,
+    "FP_cases_cleared": 3,
+    "TP_cases": 238,
+    "TP_cases_harmed": 9,
+    "case_recovery_frac": 0.029,
+    "case_net_positive": false
+  },
+  "outer_AUC_overall": 0.679,
+  "outer_AUC_95CI_bootstrap_by_case": [
+    0.627,
+    0.728
+  ],
+  "AUC_note": "AUC is illustration only; the pre-registered criterion is the held-out safe operating point (\u00a75/\u00a77).",
+  "criterion": "\u00a75 component-level: FP_removed>TP_lost and recovery>=25% on held-out -> \u00a76(b); else \u00a76(a). Case level alongside.",
+  "baselines": "\u00a78.5 univariate AUC<=0.66 / no safe point; deployed Rule-3 size filter",
+  "OUTCOME": "(a) ceiling confirmed at N=215 components / 103 cases"
+}

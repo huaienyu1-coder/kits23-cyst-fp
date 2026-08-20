@@ -1,0 +1,54 @@
+{
+  "definition": "mean full-res cyst-channel softmax per predicted-cyst CC (26-conn); FP=C_fp_neg, TP=B_tp; N=98 hold-out",
+  "sanity_mean_cystprob_over_predicted_cyst": 0.886,
+  "FP_C_fp_neg": {
+    "n": 26,
+    "min": 0.001,
+    "max": 0.978,
+    "median": 0.922,
+    "q1": 0.879,
+    "q3": 0.945
+  },
+  "TP_B_tp": {
+    "n": 176,
+    "min": 0.002,
+    "max": 0.986,
+    "median": 0.942,
+    "q1": 0.866,
+    "q3": 0.961
+  },
+  "overlap": "see ranges",
+  "FP_left": {
+    "n": 12,
+    "min": 0.001,
+    "max": 0.978,
+    "median": 0.926,
+    "q1": 0.899,
+    "q3": 0.938
+  },
+  "FP_right": {
+    "n": 14,
+    "min": 0.566,
+    "max": 0.968,
+    "median": 0.922,
+    "q1": 0.866,
+    "q3": 0.953
+  },
+  "TP_left": {
+    "n": 89,
+    "min": 0.002,
+    "max": 0.979,
+    "median": 0.938,
+    "q1": 0.866,
+    "q3": 0.961
+  },
+  "TP_right": {
+    "n": 87,
+    "min": 0.086,
+    "max": 0.986,
+    "median": 0.942,
+    "q1": 0.862,
+    "q3": 0.963
+  },
+  "paper_claim_replaced": "0.84-0.98 (\u00a78.6, definition lost -> recomputed range is canonical)"
+}

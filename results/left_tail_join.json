@@ -1,0 +1,281 @@
+{
+  "n_fp_components": 26,
+  "q1_split": 0.88,
+  "low_conf": {
+    "n": 7,
+    "mean_frac_tumour": 0.0,
+    "mean_frac_cyst": 0.857,
+    "mean_frac_kidney": 0.143,
+    "mean_frac_bg": 0.0,
+    "mean_conf": 0.68
+  },
+  "high_conf": {
+    "n": 19,
+    "mean_frac_tumour": 0.0,
+    "mean_frac_cyst": 0.999,
+    "mean_conf": 0.931
+  },
+  "components": [
+    {
+      "case": "00052",
+      "cc": 2,
+      "vox": 21,
+      "conf": 0.001,
+      "frac_tumour": 0.0,
+      "frac_cyst": 0.0,
+      "frac_kidney": 1.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00438",
+      "cc": 1,
+      "vox": 5,
+      "conf": 0.566,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00264",
+      "cc": 2,
+      "vox": 21,
+      "conf": 0.763,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00570",
+      "cc": 1,
+      "vox": 5,
+      "conf": 0.827,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00458",
+      "cc": 1,
+      "vox": 906,
+      "conf": 0.857,
+      "frac_tumour": 0.001,
+      "frac_cyst": 0.999,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00574",
+      "cc": 1,
+      "vox": 88,
+      "conf": 0.866,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00573",
+      "cc": 1,
+      "vox": 901,
+      "conf": 0.879,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00223",
+      "cc": 2,
+      "vox": 49,
+      "conf": 0.884,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00407",
+      "cc": 3,
+      "vox": 91,
+      "conf": 0.895,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00559",
+      "cc": 1,
+      "vox": 154,
+      "conf": 0.899,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00294",
+      "cc": 1,
+      "vox": 282,
+      "conf": 0.904,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00052",
+      "cc": 1,
+      "vox": 60,
+      "conf": 0.905,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00223",
+      "cc": 1,
+      "vox": 11,
+      "conf": 0.911,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00264",
+      "cc": 1,
+      "vox": 136,
+      "conf": 0.922,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00157",
+      "cc": 1,
+      "vox": 300,
+      "conf": 0.923,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00264",
+      "cc": 3,
+      "vox": 277,
+      "conf": 0.926,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00033",
+      "cc": 1,
+      "vox": 95,
+      "conf": 0.929,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00157",
+      "cc": 2,
+      "vox": 816,
+      "conf": 0.936,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00559",
+      "cc": 2,
+      "vox": 314,
+      "conf": 0.938,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00573",
+      "cc": 2,
+      "vox": 48,
+      "conf": 0.945,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00407",
+      "cc": 1,
+      "vox": 31,
+      "conf": 0.953,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00577",
+      "cc": 1,
+      "vox": 71,
+      "conf": 0.953,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00407",
+      "cc": 2,
+      "vox": 129,
+      "conf": 0.957,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00208",
+      "cc": 2,
+      "vox": 2931,
+      "conf": 0.958,
+      "frac_tumour": 0.0,
+      "frac_cyst": 0.973,
+      "frac_kidney": 0.024,
+      "frac_bg": 0.004
+    },
+    {
+      "case": "00208",
+      "cc": 1,
+      "vox": 42,
+      "conf": 0.968,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    },
+    {
+      "case": "00108",
+      "cc": 1,
+      "vox": 380,
+      "conf": 0.978,
+      "frac_tumour": 0.0,
+      "frac_cyst": 1.0,
+      "frac_kidney": 0.0,
+      "frac_bg": 0.0
+    }
+  ],
+  "prereg_criterion": "low-conf mean_frac_tumour >> high-conf mean_frac_tumour  => hypothesis holds"
+}

@@ -1,0 +1,28 @@
+# Data / labels / predictions — never commit (KiTS23 is public; obtain upstream)
+*.nii.gz
+*.npz
+*.npy
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+imagesTr/
+labelsTr/
+predictions/
+holdout_pipeline/
+*_val/
+
+# Model weights
+*.pth
+*.model
+*.ckpt
+
+# Logs / scratch / caches
+*.log
+scratch*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp

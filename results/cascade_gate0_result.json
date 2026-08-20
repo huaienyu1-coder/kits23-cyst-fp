@@ -1,0 +1,10 @@
+{
+  "definition": "GT cyst (label 3) voxels outside PREDICTED-kidney-ROI bbox (soft_majority_rule3_typex, label>=1) + margin, summed over canonical hold-out (fold-0 val, N=98)",
+  "n_cases_with_cyst": 50,
+  "total_gt_cyst_voxels": 479873,
+  "cyst_voxels_outside_pred_kidney_bbox_10mm": 0,
+  "cyst_voxels_outside_pred_kidney_bbox_20mm": 0,
+  "shape_mismatch_cases": 0,
+  "cases_with_any_outside": [],
+  "paper_claim": "0 of 479,873 GT cyst voxels removed by kidney-bbox crop at 10 and 20 mm"
+}

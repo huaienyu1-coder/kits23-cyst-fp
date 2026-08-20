@@ -1,0 +1,83 @@
+{
+  "definition": "case-level cyst FP = GT-no-cyst & pred-has-any-cyst-voxel; FN = GT-cyst & pred-no-cyst (== eval_hec_cystfp.py)",
+  "calibration_pipeline_baseline": {
+    "model": "pipeline-baseline",
+    "side": "calib",
+    "n": 98,
+    "missing": 0,
+    "cyst_fp_cases": 19,
+    "gt_cyst_neg_cases": 48,
+    "cyst_fp_rate": 0.3958,
+    "cyst_fn_cases": 2,
+    "gt_cyst_pos_cases": 50,
+    "cyst_fn_rate": 0.04
+  },
+  "train_n": 391,
+  "holdout_n": 98,
+  "results": {
+    "lowres": {
+      "train": {
+        "model": "lowres",
+        "side": "train",
+        "n": 391,
+        "missing": 0,
+        "cyst_fp_cases": 52,
+        "gt_cyst_neg_cases": 193,
+        "cyst_fp_rate": 0.2694,
+        "cyst_fn_cases": 1,
+        "gt_cyst_pos_cases": 198,
+        "cyst_fn_rate": 0.0051
+      },
+      "holdout": {
+        "model": "lowres",
+        "side": "holdout",
+        "n": 98,
+        "missing": 0,
+        "cyst_fp_cases": 15,
+        "gt_cyst_neg_cases": 48,
+        "cyst_fp_rate": 0.3125,
+        "cyst_fn_cases": 4,
+        "gt_cyst_pos_cases": 50,
+        "cyst_fn_rate": 0.08
+      }
+    },
+    "resenc": {
+      "train": {
+        "model": "resenc",
+        "side": "train",
+        "n": 391,
+        "missing": 0,
+        "cyst_fp_cases": 58,
+        "gt_cyst_neg_cases": 193,
+        "cyst_fp_rate": 0.3005,
+        "cyst_fn_cases": 0,
+        "gt_cyst_pos_cases": 198,
+        "cyst_fn_rate": 0.0
+      },
+      "holdout": {
+        "model": "resenc",
+        "side": "holdout",
+        "n": 98,
+        "missing": 0,
+        "cyst_fp_cases": 14,
+        "gt_cyst_neg_cases": 48,
+        "cyst_fp_rate": 0.2917,
+        "cyst_fn_cases": 3,
+        "gt_cyst_pos_cases": 50,
+        "cyst_fn_rate": 0.06
+      }
+    }
+  },
+  "ratios": {
+    "lowres": {
+      "fp_train_over_holdout": 0.862,
+      "fn_train": 0.0051,
+      "fn_holdout": 0.08
+    },
+    "resenc": {
+      "fp_train_over_holdout": 1.03,
+      "fn_train": 0.0,
+      "fn_holdout": 0.06
+    }
+  }
+}
