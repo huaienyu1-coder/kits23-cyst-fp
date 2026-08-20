@@ -49,6 +49,15 @@ as JSON under `analysis/` so every reported number is reproducible.
 
 ## Reproduce (outline)
 
+Every script resolves its local working root from the `KITS23_ROOT` environment variable
+(default `$HOME/KiTS23`). Point it at your KiTS23 working tree — the directory holding
+`nnUNet_raw/`, `nnUNet_preprocessed/`, `nnUNet_results/`, and `holdout_pipeline/` — before
+running anything; no in-script path editing is needed:
+
+```bash
+export KITS23_ROOT=/path/to/your/KiTS23
+```
+
 1. Install nnU-Net v2 and the KiTS23 toolkit; download the dataset.
 2. Train (or obtain) the three hold-out models (low-res plain, full-res plain, ResEnc-L)
    on the seed-45 fold-0 split.
@@ -58,8 +67,8 @@ as JSON under `analysis/` so every reported number is reproducible.
 5. Score with `eval/eval_hec_cystfp.py` (HEC + cyst FP/FN). Expected hold-out headline:
    mean HEC 0.9022 → 0.9020, cyst false-alarm 39.6% → 33.3%.
 
-Detailed step-by-step paths are in `pipeline/rerun_pipeline.sh` (currently rig-specific;
-paths are being generalized before public release — see `RELEASE_TODO.md`).
+Detailed step-by-step commands are in `pipeline/rerun_pipeline.sh`; all of its paths derive
+from `KITS23_ROOT` (see above), so it runs unmodified once that variable points at your tree.
 
 ## Citation
 

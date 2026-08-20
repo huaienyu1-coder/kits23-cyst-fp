@@ -21,7 +21,10 @@ import os
 import re
 from pathlib import Path
 
-RESULTS_ROOT = Path("/home/huaienyu/KiTS23/nnUNet_results/Dataset500_KiTS23")
+# Local KiTS23 working root (raw data / weights obtained separately, not in this repo).
+# Override with:  export KITS23_ROOT=/path/to/your/KiTS23
+KITS23_ROOT = Path(os.environ.get("KITS23_ROOT", os.path.expanduser("~/KiTS23")))
+RESULTS_ROOT = KITS23_ROOT / "nnUNet_results/Dataset500_KiTS23"
 
 TRAINERS = {
     "baseline_ResEncL": "nnUNetTrainer__nnUNetResEncUNetLPlans__3d_lowres",

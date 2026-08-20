@@ -11,8 +11,10 @@ Staged 2026-08-06 (CC). This is a **staging skeleton**, not yet publishable. Blo
       `splits_final_cv5` (union 489). **Contains only case IDs, no patient data — safe to commit.**
 
 ## Code hygiene before public
-- [ ] Generalize **rig-specific absolute paths** in `pipeline/rerun_pipeline.sh` and the
-      `compute_*`/`ftl_*` scripts (env vars / CLI args instead of `/home/huaienyu/...`).
+- [x] Generalize **rig-specific absolute paths** — done 2026-08-20: `pipeline/rerun_pipeline.sh`,
+      `analysis/{ftl_probe_eval,ftl_alpha04_eval,agreement_corroboration_test}.py`, and the two
+      `r2_*.sh` now resolve their working root from `KITS23_ROOT` (default `$HOME/KiTS23`); no
+      `/home/huaienyu` remains in any `.py`/`.sh`. README documents the export.
 - [ ] Confirm no script **vendors** second-place code (khuhm repo = no license). Our files
       must call into a user-provided clone, not embed their source. (Design already enforces this.)
 - [ ] Add a minimal `requirements.txt` (nnU-Net v2, SimpleITK, numpy, scipy).
@@ -31,6 +33,10 @@ Staged 2026-08-06 (CC). This is a **staging skeleton**, not yet publishable. Blo
   obtained by the user, **not redistributed**.
 - Excludes raw images / GT / trained weights (public upstream; weights optional as release asset).
 
-## 2026-08-20 更新（CV 完成後）
+## 2026-08-20 更新（CV 完成後 + 投稿前收尾）
 - [x] 5-fold CV 完成、R2 train-FP 重算、pre-registered classifier(outcome a)全部執行完，code+結果已加入(analysis/, results/, prereg/)。
-- [ ] 投稿前:JSON 內絕對路徑(/home/...)泛化;README citation BibTeX 待接受後補;tag v1.0;確認雙盲與否再 Private→Public。
+- [x] 絕對路徑泛化(見 Code hygiene 上方)+ README 補 `KITS23_ROOT` 說明。JSON 檔本就無絕對路徑,已確認。
+- [x] **審稿模式定案:單盲**(CBM Guide L275)→ 走公開路線,repo 投稿當天 Private→Public、URL 填入正文、tag v1.0(公開與投稿同日,不留空窗)。雙盲備援作廢。
+- [ ] 投稿當天:`git tag v1.0` + 設 Public + 把 `github.com/huaienyu1-coder/kits23-cyst-fp` 填入論文 Code availability 的 4 個 placeholder。
+- [ ] README citation BibTeX 待接受後補。
+- [ ] (使用者)撤銷曝光的舊 PAT。

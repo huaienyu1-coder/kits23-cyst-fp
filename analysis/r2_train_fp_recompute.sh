@@ -4,9 +4,12 @@
 # -> both sides same settings = apples-to-apples for the §4.4 train-vs-holdout ratio.
 # Output train_fp_fn_recompute.json. Runs on the now-free GPU; does NOT touch pipeline products.
 set -uo pipefail
-cd /home/huaienyu/KiTS23
+# Local KiTS23 working root (raw data / weights obtained separately, not in this repo).
+# Override with:  export KITS23_ROOT=/path/to/your/KiTS23
+ROOT="${KITS23_ROOT:-$HOME/KiTS23}"
+cd "$ROOT"
 source venv/bin/activate
-export nnUNet_raw="$HOME/KiTS23/nnUNet_raw" nnUNet_preprocessed="$HOME/KiTS23/nnUNet_preprocessed" nnUNet_results="$HOME/KiTS23/nnUNet_results"
+export nnUNet_raw="$ROOT/nnUNet_raw" nnUNet_preprocessed="$ROOT/nnUNet_preprocessed" nnUNet_results="$ROOT/nnUNet_results"
 PRE="$nnUNet_preprocessed/Dataset500_KiTS23"; RAW="$nnUNet_raw/Dataset500_KiTS23"; RES="$nnUNet_results/Dataset500_KiTS23"
 GT="$PRE/gt_segmentations"
 ts(){ date '+%F %T'; }

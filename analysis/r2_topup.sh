@@ -3,8 +3,11 @@
 # no-trailing-newline off-by-one), for both models, then re-eval on the full 391. Run AFTER the
 # main R2 driver finishes. Fix-not-annotate: the artifact must cover all 391 train cases.
 set -uo pipefail
-cd /home/huaienyu/KiTS23; source venv/bin/activate
-export nnUNet_raw="$HOME/KiTS23/nnUNet_raw" nnUNet_preprocessed="$HOME/KiTS23/nnUNet_preprocessed" nnUNet_results="$HOME/KiTS23/nnUNet_results"
+# Local KiTS23 working root (raw data / weights obtained separately, not in this repo).
+# Override with:  export KITS23_ROOT=/path/to/your/KiTS23
+ROOT="${KITS23_ROOT:-$HOME/KiTS23}"
+cd "$ROOT"; source venv/bin/activate
+export nnUNet_raw="$ROOT/nnUNet_raw" nnUNet_preprocessed="$ROOT/nnUNet_preprocessed" nnUNet_results="$ROOT/nnUNet_results"
 PRE="$nnUNet_preprocessed/Dataset500_KiTS23"; RAW="$nnUNet_raw/Dataset500_KiTS23"
 python3 -c "import json;d=json.load(open('$PRE/splits_final.json'));print('\n'.join(sorted(d[0]['train'])))" > /tmp/r2_train_full.txt
 declare -A PLANS=( [lowres]="nnUNetPlans" [resenc]="nnUNetResEncUNetLPlans" )

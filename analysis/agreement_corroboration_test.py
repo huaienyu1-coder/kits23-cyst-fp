@@ -21,7 +21,10 @@ from scipy.ndimage import label as ndl, distance_transform_edt
 
 K, T, C = 1, 2, 3
 TAUS = [0.0, 2.0, 4.0, 6.0, 10.0]  # physical mm
-GTD = "/home/huaienyu/KiTS23/nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations"
+# Local KiTS23 working root (raw data / weights obtained separately, not in this repo).
+# Override with:  export KITS23_ROOT=/path/to/your/KiTS23
+KITS23_ROOT = os.environ.get("KITS23_ROOT", os.path.expanduser("~/KiTS23"))
+GTD = os.path.join(KITS23_ROOT, "nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations")
 FOLDS = {
     0: dict(final="holdout_pipeline/soft_majority_rule3_typex",
             low="holdout_pipeline/raw_predictions/lowres_plain",

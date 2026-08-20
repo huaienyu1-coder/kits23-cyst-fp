@@ -18,22 +18,26 @@ Usage:
 """
 
 import argparse
+import os
 import numpy as np
 import SimpleITK as sitk
 from pathlib import Path
 
-HOLDOUT = Path("/home/huaienyu/KiTS23/holdout_pipeline")
+# Local KiTS23 working root (raw data / weights obtained separately, not in this repo).
+# Override with:  export KITS23_ROOT=/path/to/your/KiTS23
+KITS23_ROOT = Path(os.environ.get("KITS23_ROOT", os.path.expanduser("~/KiTS23")))
+HOLDOUT = KITS23_ROOT / "holdout_pipeline"
 RAW_LOWRES  = HOLDOUT / "raw_predictions/lowres_plain"
 RAW_FULLRES = HOLDOUT / "raw_predictions/fullres"
 RAW_RESENC  = HOLDOUT / "raw_predictions/resenc_l"
 SOFT_MAJORITY = HOLDOUT / "soft_voting/hard_intersection"  # 0.9022 baseline
 
-ALPHA04_DIR_DEFAULT = Path(
-    "/home/huaienyu/KiTS23/nnUNet_results/Dataset500_KiTS23"
-    "/nnUNetTrainerFTL_cyst_alpha04__nnUNetResEncUNetLPlans__3d_lowres"
-    "/fold_0/validation"
+ALPHA04_DIR_DEFAULT = (
+    KITS23_ROOT / "nnUNet_results/Dataset500_KiTS23"
+    / "nnUNetTrainerFTL_cyst_alpha04__nnUNetResEncUNetLPlans__3d_lowres"
+    / "fold_0/validation"
 )
-GT_DIR = Path("/home/huaienyu/KiTS23/nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations")
+GT_DIR = KITS23_ROOT / "nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations"
 
 CYST = 3
 
