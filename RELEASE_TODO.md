@@ -39,4 +39,4 @@ Staged 2026-08-06 (CC). This is a **staging skeleton**, not yet publishable. Blo
 - [x] **審稿模式定案:單盲**(CBM Guide L275)→ 走公開路線,repo 投稿當天 Private→Public、URL 填入正文、tag v1.0(公開與投稿同日,不留空窗)。雙盲備援作廢。
 - [ ] 投稿當天:`git tag v1.0` + 設 Public + 把 `github.com/huaienyu1-coder/kits23-cyst-fp` 填入論文 Code availability 的 4 個 placeholder。
 - [ ] README citation BibTeX 待接受後補。
-- [ ] (使用者)撤銷曝光的舊 PAT。
+- [x] 撤銷曝光的舊 PAT(使用者 2026-08-20 已刪,token 清單確認為空)。
