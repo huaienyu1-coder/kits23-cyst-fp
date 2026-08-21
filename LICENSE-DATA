@@ -1,0 +1,31 @@
+Data license for derived result tables
+=======================================
+
+This license applies ONLY to the derived data files in this repository — namely
+`results/*.json` and `analysis/classifier_features_pooled.csv`. It does NOT apply
+to the source code, which is under the MIT License (see `LICENSE`).
+
+These files contain derived statistics (rates, counts, per-component radiomic
+features, operating-point thresholds) and public KiTS23 case identifiers only.
+They contain no voxel arrays, no segmentation masks, and no image content.
+
+Because these tables are derived from the KiTS23 dataset, which is distributed under
+the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license
+(CC BY-NC-SA 4.0), we release them under the same terms:
+
+  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  (CC BY-NC-SA 4.0)
+  Full legal text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+  Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to share and adapt these tables for non-commercial purposes, provided
+you (a) give appropriate attribution, (b) do not use them for commercial purposes,
+and (c) distribute any derivatives under the same CC BY-NC-SA 4.0 license.
+
+Attribution / source dataset:
+  The 2023 Kidney and Kidney Tumor Segmentation Challenge (KiTS23).
+  https://kits-challenge.org/kits23/
+  Please cite the KiTS challenge paper (Medical Image Analysis) when using these tables.
+
+The KiTS23 imaging data itself is NOT redistributed in this repository; obtain it
+directly from the official challenge under its own CC BY-NC-SA 4.0 terms.

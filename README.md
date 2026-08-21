@@ -32,7 +32,8 @@ obtain three upstream components yourself:
 | Component | Source | License |
 |---|---|---|
 | nnU-Net v2 (training/inference backbone) | https://github.com/MIC-DKFZ/nnUNet | Apache-2.0 |
-| KiTS23 official toolkit (dataset + HEC metric) | https://github.com/neheller/kits23 | MIT |
+| KiTS23 official **toolkit code** (HEC metric, data loaders) | https://github.com/neheller/kits23 | MIT |
+| KiTS23 **imaging dataset + segmentation labels** | https://kits-challenge.org/kits23/ | **CC BY-NC-SA 4.0** — non-commercial, share-alike, attribution; obtain directly, we do not redistribute the images |
 | Second-place pipeline (Uhm et al. 2024) — `postprocess.py`, `post_process_tumor.py` | https://github.com/khuhm/KiTS23-2nd-place | **no license (all rights reserved)** — obtain directly; we do not redistribute it |
 
 > The second-place repository carries no license, so its files cannot be legally
@@ -78,5 +79,17 @@ from `KITS23_ROOT` (see above), so it runs unmodified once that variable points 
 
 ## License
 
-Our original code and documentation are released under the MIT License (see `LICENSE`).
-Upstream components retain their own licenses as listed above.
+This repository is **dual-licensed** by content type:
+
+| Content | License | File |
+|---|---|---|
+| Our original **code** and documentation | MIT | `LICENSE` |
+| Released **result tables derived from KiTS23 data** (`results/*.json`, `analysis/classifier_features_pooled.csv`) | **CC BY-NC-SA 4.0** | `LICENSE-DATA` |
+| KiTS23 **imaging data** | not redistributed here — obtain from the official challenge (CC BY-NC-SA 4.0) | — |
+
+The result tables contain only derived statistics (rates, counts, per-component radiomic
+features, thresholds) and public KiTS23 case identifiers — **no voxel arrays or image
+content**. Because they are computed from the KiTS23 dataset (CC BY-NC-SA 4.0), we release
+them under the same CC BY-NC-SA 4.0 terms (attribution, non-commercial, share-alike) and
+ask users to cite the KiTS challenge paper. Upstream code components retain their own
+licenses as listed above.
