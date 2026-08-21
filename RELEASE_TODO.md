@@ -36,7 +36,8 @@ Staged 2026-08-06 (CC). This is a **staging skeleton**, not yet publishable. Blo
 ## 2026-08-20 更新（CV 完成後 + 投稿前收尾）
 - [x] 5-fold CV 完成、R2 train-FP 重算、pre-registered classifier(outcome a)全部執行完，code+結果已加入(analysis/, results/, prereg/)。
 - [x] 絕對路徑泛化(見 Code hygiene 上方)+ README 補 `KITS23_ROOT` 說明。JSON 檔本就無絕對路徑,已確認。
-- [x] **審稿模式定案:單盲**(CBM Guide L275)→ 走公開路線,repo 投稿當天 Private→Public、URL 填入正文、tag v1.0(公開與投稿同日,不留空窗)。雙盲備援作廢。
-- [ ] 投稿當天:`git tag v1.0` + 設 Public + 把 `github.com/huaienyu1-coder/kits23-cyst-fp` 填入論文 Code availability 的 4 個 placeholder。
+- [x] **審稿模式定案:單盲**(原據 CBM Guide L275;2026-08-21 換刊 CMIG 後重查,CMIG 亦為 single anonymized,結論不變)→ 走公開路線(公開與投稿同日,不留空窗)。雙盲備援作廢。
+- [x] URL 已填入論文 Code availability + cover letter(2026-08-21;措辭 = "publicly available at … (released publicly on submission)",A 案)。
+- [ ] 投稿當天(僅剩兩動作):`git tag v1.0` + repo 設 Public;順帶 push 本檔與最新 analysis 變更。
 - [ ] README citation BibTeX 待接受後補。
 - [x] 撤銷曝光的舊 PAT(使用者 2026-08-20 已刪,token 清單確認為空)。
