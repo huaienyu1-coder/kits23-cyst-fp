@@ -1,8 +1,9 @@
 # Cyst false positives as an information limit in a KiTS23 segmentation pipeline
 
-> **Status: pre-release staging.** Reported numbers are being finalized against a full
-> 5-fold cross-validation; this repository will be tagged `v1.0` and made public when the
-> paper is submitted. Do not cite the numbers here until then.
+> **Status: released (`v1.0`).** This is the version of record accompanying the submitted
+> manuscript. All reported numbers are final, validated against the full five-fold
+> cross-validation; every load-bearing number in the paper is backed by an artifact in
+> `results/` regenerable with the scripts here.
 
 Code and analyses accompanying the paper *Under the aggregate: a mechanism-level diagnosis of irreducible cyst false positives in a KiTS23 segmentation pipeline* (Huai-En Yu, Chung-Shan Yu).
 This is a **diagnostic** study: rather than pushing a leaderboard score, it shows that the
@@ -19,9 +20,11 @@ postprocess/   our contributions: Type X detector, Rule-3 size filter;
                + the cross-scale cyst filter (a documented negative result)
 eval/          Hierarchical Evaluation Class (HEC) + cyst false-positive/negative evaluators;
                Wilson CIs and residual-FP size distribution
-analysis/      FTL survival-test evaluators; §4.4 train-set FP/FN recompute spec
-prereg/        pre-registered protocol for the multivariate cyst-FP classifier
-figures/       figure-generation scripts  [TBD]
+analysis/      survival-test evaluators (FTL, agreement, cascade, confidence, classifier);
+               train-set FP/FN recompute; pooled feature extraction + figure scripts
+prereg/        pre-registered protocols (classifier, OSF-archived; agreement corroboration)
+results/       result artifacts (JSON) backing every load-bearing number in the paper
+figures/       released figure assets (generation scripts in analysis/)
 ```
 
 ## What is NOT here (obtain upstream; see licenses below)
