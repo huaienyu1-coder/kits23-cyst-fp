@@ -5,7 +5,7 @@
 > cross-validation; every load-bearing number in the paper is backed by an artifact in
 > `results/` regenerable with the scripts here.
 
-Code and analyses accompanying the paper *Under the aggregate: a mechanism-level diagnosis of irreducible cyst false positives in a KiTS23 segmentation pipeline* (Huai-En Yu, Chung-Shan Yu).
+Code and analyses accompanying the paper *Under the aggregate: a mechanism-level diagnosis of a persistent cyst false-positive mode in a KiTS23 segmentation pipeline* (Huai-En Yu, Chung-Shan Yu).
 This is a **diagnostic** study: rather than pushing a leaderboard score, it shows that the
 residual **cyst false positives** of a strong second-place KiTS23 pipeline are an
 *information limit* (single-phase acquisition + annotation), not a tuning failure — and it
@@ -21,7 +21,11 @@ postprocess/   our contributions: Type X detector, Rule-3 size filter;
 eval/          Hierarchical Evaluation Class (HEC) + cyst false-positive/negative evaluators;
                Wilson CIs and residual-FP size distribution
 analysis/      survival-test evaluators (FTL, agreement, cascade, confidence, classifier);
-               train-set FP/FN recompute; pooled feature extraction + figure scripts
+               train-set FP/FN recompute; pooled feature extraction + figure scripts;
+               keystone learned-representation probe (frozen DINOv2 / RAD-DINO, plus a
+               size-matched control; supplement S11) shipped with its pre-extracted centre-slice
+               patches (fm_patches.npz) so the probe AUCs reproduce offline; residual-FP
+               anatomical-location analysis (fp_component_list.csv)
 prereg/        pre-registered protocols (classifier, OSF-archived; agreement corroboration)
 results/       result artifacts (JSON) backing every load-bearing number in the paper
 figures/       released figure assets (generation scripts in analysis/)
@@ -53,14 +57,20 @@ as JSON under `analysis/` so every reported number is reproducible.
 
 ## Reproduce (outline)
 
-Every script resolves its local working root from the `KITS23_ROOT` environment variable
-(default `$HOME/KiTS23`). Point it at your KiTS23 working tree — the directory holding
-`nnUNet_raw/`, `nnUNet_preprocessed/`, `nnUNet_results/`, and `holdout_pipeline/` — before
+Every script that touches the raw working tree resolves its local root from the `KITS23_ROOT`
+environment variable (default `$HOME/KiTS23`) — the directory holding `nnUNet_raw/`,
+`nnUNet_preprocessed/`, `nnUNet_results/`, and `holdout_pipeline/`. Point it there before
 running anything; no in-script path editing is needed:
 
 ```bash
 export KITS23_ROOT=/path/to/your/KiTS23
 ```
+
+The keystone learned-representation probe is the exception: it ships with its own
+pre-extracted patches (`analysis/fm_patches.npz`), so
+`analysis/fm_dinov2_separability.py`, `fm_raddino_separability.py` and
+`fm_sizematched_separability.py` reproduce the supplement-S11 AUCs (0.63 / 0.58 / 0.54,
+size-only 0.74) directly, with no raw imaging needed (GPU recommended).
 
 1. Install nnU-Net v2 and the KiTS23 toolkit; download the dataset.
 2. Train (or obtain) the three hold-out models (low-res plain, full-res plain, ResEnc-L)
@@ -87,12 +97,14 @@ This repository is **dual-licensed** by content type:
 | Content | License | File |
 |---|---|---|
 | Our original **code** and documentation | MIT | `LICENSE` |
-| Released **result tables derived from KiTS23 data** (`results/*.json`, `analysis/classifier_features_pooled.csv`) | **CC BY-NC-SA 4.0** | `LICENSE-DATA` |
+| Released **result tables derived from KiTS23 data** (`results/*.json`, `analysis/classifier_features_pooled.csv`, `analysis/fp_component_list.csv`) | **CC BY-NC-SA 4.0** | `LICENSE-DATA` |
+| Pre-extracted centre-slice **patch array** (`analysis/fm_patches.npz`, windowed 2D CT crops derived from KiTS23) | **CC BY-NC-SA 4.0** | `LICENSE-DATA` |
 | KiTS23 **imaging data** | not redistributed here — obtain from the official challenge (CC BY-NC-SA 4.0) | — |
 
 The result tables contain only derived statistics (rates, counts, per-component radiomic
 features, thresholds) and public KiTS23 case identifiers — **no voxel arrays or image
-content**. Because they are computed from the KiTS23 dataset (CC BY-NC-SA 4.0), we release
-them under the same CC BY-NC-SA 4.0 terms (attribution, non-commercial, share-alike) and
-ask users to cite the KiTS challenge paper. Upstream code components retain their own
-licenses as listed above.
+content**. `fm_patches.npz` holds small windowed 2D centre-slice crops (224×224, greyscale)
+of predicted-cyst components, derived from the CC BY-NC-SA 4.0 KiTS23 imaging and released
+under the same terms. Because these are computed from the KiTS23 dataset, we release them
+under CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike) and ask users to cite the
+KiTS challenge paper. Upstream code components retain their own licenses as listed above.

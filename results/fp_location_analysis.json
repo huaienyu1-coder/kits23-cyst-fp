@@ -1,0 +1,526 @@
+{
+ "FP": [
+  {
+   "case": "00577",
+   "vox": 71,
+   "depth_med_mm": 9.43,
+   "depth_max_mm": 11.91,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 102.4,
+   "pole_z": 0.904
+  },
+  {
+   "case": "00052",
+   "vox": 21,
+   "depth_med_mm": 3.45,
+   "depth_max_mm": 4.77,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 50.1,
+   "pole_z": 0.078
+  },
+  {
+   "case": "00108",
+   "vox": 380,
+   "depth_med_mm": 7.0,
+   "depth_max_mm": 10.22,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 112.5,
+   "pole_z": 0.207
+  },
+  {
+   "case": "00573",
+   "vox": 901,
+   "depth_med_mm": 0.0,
+   "depth_max_mm": 3.79,
+   "exophytic_frac": 0.906,
+   "touch_tumour": false,
+   "dist_tumour_mm": 93.4,
+   "pole_z": 0.16
+  },
+  {
+   "case": "00407",
+   "vox": 91,
+   "depth_med_mm": 7.83,
+   "depth_max_mm": 9.61,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 9.2,
+   "pole_z": 0.925
+  },
+  {
+   "case": "00573",
+   "vox": 48,
+   "depth_med_mm": 6.98,
+   "depth_max_mm": 8.9,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 108.1,
+   "pole_z": 0.163
+  },
+  {
+   "case": "00208",
+   "vox": 42,
+   "depth_med_mm": 2.5,
+   "depth_max_mm": 5.0,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 60.6,
+   "pole_z": 0.782
+  },
+  {
+   "case": "00294",
+   "vox": 282,
+   "depth_med_mm": 1.83,
+   "depth_max_mm": 4.26,
+   "exophytic_frac": 0.032,
+   "touch_tumour": false,
+   "dist_tumour_mm": 24.9,
+   "pole_z": 0.881
+  },
+  {
+   "case": "00559",
+   "vox": 314,
+   "depth_med_mm": 10.68,
+   "depth_max_mm": 12.13,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 144.7,
+   "pole_z": 0.076
+  },
+  {
+   "case": "00264",
+   "vox": 277,
+   "depth_med_mm": 2.25,
+   "depth_max_mm": 5.96,
+   "exophytic_frac": 0.054,
+   "touch_tumour": false,
+   "dist_tumour_mm": 136.6,
+   "pole_z": 0.032
+  },
+  {
+   "case": "00407",
+   "vox": 31,
+   "depth_med_mm": 1.73,
+   "depth_max_mm": 4.15,
+   "exophytic_frac": 0.032,
+   "touch_tumour": false,
+   "dist_tumour_mm": 35.1,
+   "pole_z": 0.743
+  },
+  {
+   "case": "00407",
+   "vox": 129,
+   "depth_med_mm": 0.77,
+   "depth_max_mm": 5.46,
+   "exophytic_frac": 0.434,
+   "touch_tumour": false,
+   "dist_tumour_mm": 16.2,
+   "pole_z": 0.794
+  },
+  {
+   "case": "00458",
+   "vox": 906,
+   "depth_med_mm": 15.96,
+   "depth_max_mm": 25.81,
+   "exophytic_frac": 0.017,
+   "touch_tumour": false,
+   "dist_tumour_mm": 19.9,
+   "pole_z": 0.821
+  },
+  {
+   "case": "00574",
+   "vox": 88,
+   "depth_med_mm": 5.44,
+   "depth_max_mm": 9.27,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 134.0,
+   "pole_z": 0.927
+  },
+  {
+   "case": "00559",
+   "vox": 154,
+   "depth_med_mm": 8.37,
+   "depth_max_mm": 9.69,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 130.9,
+   "pole_z": 0.122
+  },
+  {
+   "case": "00157",
+   "vox": 300,
+   "depth_med_mm": 0.99,
+   "depth_max_mm": 3.96,
+   "exophytic_frac": 0.257,
+   "touch_tumour": false,
+   "dist_tumour_mm": 113.2,
+   "pole_z": 0.309
+  },
+  {
+   "case": "00264",
+   "vox": 21,
+   "depth_med_mm": 5.4,
+   "depth_max_mm": 6.47,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 95.3,
+   "pole_z": 0.285
+  },
+  {
+   "case": "00570",
+   "vox": 5,
+   "depth_med_mm": 9.57,
+   "depth_max_mm": 10.13,
+   "exophytic_frac": 0.0,
+   "touch_tumour": true,
+   "dist_tumour_mm": 1.4,
+   "pole_z": 0.817
+  },
+  {
+   "case": "00208",
+   "vox": 2931,
+   "depth_med_mm": 4.42,
+   "depth_max_mm": 13.73,
+   "exophytic_frac": 0.003,
+   "touch_tumour": true,
+   "dist_tumour_mm": 0.0,
+   "pole_z": 0.777
+  },
+  {
+   "case": "00157",
+   "vox": 816,
+   "depth_med_mm": 6.26,
+   "depth_max_mm": 9.22,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 148.8,
+   "pole_z": 0.175
+  },
+  {
+   "case": "00052",
+   "vox": 60,
+   "depth_med_mm": 3.33,
+   "depth_max_mm": 4.96,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 119.2,
+   "pole_z": 0.851
+  },
+  {
+   "case": "00438",
+   "vox": 5,
+   "depth_med_mm": 3.78,
+   "depth_max_mm": 3.78,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 134.3,
+   "pole_z": 0.74
+  },
+  {
+   "case": "00264",
+   "vox": 136,
+   "depth_med_mm": 4.94,
+   "depth_max_mm": 7.8,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 52.1,
+   "pole_z": 0.769
+  },
+  {
+   "case": "00223",
+   "vox": 11,
+   "depth_med_mm": 1.9,
+   "depth_max_mm": 3.42,
+   "exophytic_frac": 0.091,
+   "touch_tumour": false,
+   "dist_tumour_mm": 83.8,
+   "pole_z": 0.186
+  },
+  {
+   "case": "00223",
+   "vox": 49,
+   "depth_med_mm": 3.8,
+   "depth_max_mm": 5.7,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 48.0,
+   "pole_z": 0.525
+  },
+  {
+   "case": "00033",
+   "vox": 95,
+   "depth_med_mm": 3.25,
+   "depth_max_mm": 5.69,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 78.3,
+   "pole_z": 0.04
+  }
+ ],
+ "TP": [
+  {
+   "case": "00454",
+   "vox": 154,
+   "depth_med_mm": 2.91,
+   "depth_max_mm": 6.59,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 138.6,
+   "pole_z": 0.695
+  },
+  {
+   "case": "00540",
+   "vox": 321,
+   "depth_med_mm": 2.29,
+   "depth_max_mm": 4.48,
+   "exophytic_frac": 0.025,
+   "touch_tumour": false,
+   "dist_tumour_mm": 12.8,
+   "pole_z": 0.146
+  },
+  {
+   "case": "00506",
+   "vox": 913,
+   "depth_med_mm": 5.29,
+   "depth_max_mm": 9.7,
+   "exophytic_frac": 0.003,
+   "touch_tumour": false,
+   "dist_tumour_mm": 154.8,
+   "pole_z": 0.78
+  },
+  {
+   "case": "00125",
+   "vox": 388,
+   "depth_med_mm": 9.77,
+   "depth_max_mm": 14.82,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 39.2,
+   "pole_z": 0.069
+  },
+  {
+   "case": "00083",
+   "vox": 274,
+   "depth_med_mm": 2.76,
+   "depth_max_mm": 7.16,
+   "exophytic_frac": 0.077,
+   "touch_tumour": false,
+   "dist_tumour_mm": 42.2,
+   "pole_z": 0.202
+  },
+  {
+   "case": "00470",
+   "vox": 47,
+   "depth_med_mm": 2.9,
+   "depth_max_mm": 5.05,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 35.7,
+   "pole_z": 0.937
+  },
+  {
+   "case": "00526",
+   "vox": 87,
+   "depth_med_mm": 7.97,
+   "depth_max_mm": 10.53,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 126.0,
+   "pole_z": 0.922
+  },
+  {
+   "case": "00455",
+   "vox": 129,
+   "depth_med_mm": 4.0,
+   "depth_max_mm": 8.0,
+   "exophytic_frac": 0.023,
+   "touch_tumour": false,
+   "dist_tumour_mm": 38.4,
+   "pole_z": 0.203
+  },
+  {
+   "case": "00193",
+   "vox": 819,
+   "depth_med_mm": 5.91,
+   "depth_max_mm": 9.25,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 133.1,
+   "pole_z": 0.161
+  },
+  {
+   "case": "00145",
+   "vox": 5,
+   "depth_med_mm": 0.98,
+   "depth_max_mm": 0.98,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 163.8,
+   "pole_z": 0.024
+  },
+  {
+   "case": "00470",
+   "vox": 92,
+   "depth_med_mm": 2.86,
+   "depth_max_mm": 5.8,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 114.7,
+   "pole_z": 0.253
+  },
+  {
+   "case": "00246",
+   "vox": 26,
+   "depth_med_mm": 2.56,
+   "depth_max_mm": 3.69,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 68.8,
+   "pole_z": 0.294
+  },
+  {
+   "case": "00522",
+   "vox": 274,
+   "depth_med_mm": 4.37,
+   "depth_max_mm": 10.4,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 207.7,
+   "pole_z": 0.059
+  },
+  {
+   "case": "00568",
+   "vox": 2908,
+   "depth_med_mm": 7.29,
+   "depth_max_mm": 13.63,
+   "exophytic_frac": 0.016,
+   "touch_tumour": false,
+   "dist_tumour_mm": 87.3,
+   "pole_z": 0.207
+  },
+  {
+   "case": "00270",
+   "vox": 94,
+   "depth_med_mm": 7.19,
+   "depth_max_mm": 9.05,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 118.9,
+   "pole_z": 0.794
+  },
+  {
+   "case": "00227",
+   "vox": 38,
+   "depth_med_mm": 5.68,
+   "depth_max_mm": 7.15,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 164.9,
+   "pole_z": 0.845
+  },
+  {
+   "case": "00270",
+   "vox": 18,
+   "depth_med_mm": 7.2,
+   "depth_max_mm": 7.94,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 135.0,
+   "pole_z": 0.886
+  },
+  {
+   "case": "00470",
+   "vox": 904,
+   "depth_med_mm": 3.79,
+   "depth_max_mm": 9.63,
+   "exophytic_frac": 0.013,
+   "touch_tumour": false,
+   "dist_tumour_mm": 36.8,
+   "pole_z": 0.79
+  },
+  {
+   "case": "00054",
+   "vox": 290,
+   "depth_med_mm": 10.38,
+   "depth_max_mm": 14.28,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 15.4,
+   "pole_z": 0.076
+  },
+  {
+   "case": "00185",
+   "vox": 23,
+   "depth_med_mm": 6.64,
+   "depth_max_mm": 7.79,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 189.7,
+   "pole_z": 0.789
+  },
+  {
+   "case": "00145",
+   "vox": 5,
+   "depth_med_mm": 0.98,
+   "depth_max_mm": 0.98,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 163.8,
+   "pole_z": 0.024
+  },
+  {
+   "case": "00185",
+   "vox": 67,
+   "depth_med_mm": 4.52,
+   "depth_max_mm": 8.56,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 77.8,
+   "pole_z": 0.162
+  },
+  {
+   "case": "00260",
+   "vox": 59,
+   "depth_med_mm": 5.11,
+   "depth_max_mm": 6.43,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 74.5,
+   "pole_z": 0.256
+  },
+  {
+   "case": "00227",
+   "vox": 11,
+   "depth_med_mm": 2.46,
+   "depth_max_mm": 2.75,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 122.3,
+   "pole_z": 0.661
+  },
+  {
+   "case": "00521",
+   "vox": 135,
+   "depth_med_mm": 10.0,
+   "depth_max_mm": 14.01,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 20.0,
+   "pole_z": 0.146
+  },
+  {
+   "case": "00082",
+   "vox": 53,
+   "depth_med_mm": 4.41,
+   "depth_max_mm": 6.97,
+   "exophytic_frac": 0.0,
+   "touch_tumour": false,
+   "dist_tumour_mm": 120.9,
+   "pole_z": 0.216
+  }
+ ]
+}
