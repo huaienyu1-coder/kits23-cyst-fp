@@ -1,0 +1,22 @@
+{
+  "fullres_PlainConv": {
+    "n_fp": 27,
+    "n_tp": 171,
+    "n_fp_cases": 18,
+    "radiomic12_auc": 0.647,
+    "size_auc": 0.7,
+    "rad_minus_size": -0.052,
+    "interiority_pct": 89,
+    "verdict": "REPLICATES (not pipeline-specific)"
+  },
+  "resenc_ResidualEnc": {
+    "n_fp": 23,
+    "n_tp": 156,
+    "n_fp_cases": 14,
+    "radiomic12_auc": 0.811,
+    "size_auc": 0.828,
+    "rad_minus_size": -0.018,
+    "interiority_pct": 74,
+    "verdict": "REPLICATES (not pipeline-specific)"
+  }
+}

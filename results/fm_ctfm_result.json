@@ -1,0 +1,42 @@
+{
+  "n": 939,
+  "FP": 215,
+  "TP": 724,
+  "emb_dim": 992,
+  "pca_probe_auc": 0.5841,
+  "size_only_auc": 0.7463,
+  "honest_oof_auc": 0.5677,
+  "operating_point_inner_selected": {
+    "fp_removed": 0,
+    "tp_deleted": 3,
+    "net": -3
+  },
+  "per_fold": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      2,
+      -2
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "usable_operating_point": false
+}

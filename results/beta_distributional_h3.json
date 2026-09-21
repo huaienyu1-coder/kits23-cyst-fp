@@ -1,0 +1,19 @@
+{
+  "n_fp": 215,
+  "n_cyst": 853,
+  "envelope_pct": {
+    "mean_hu": 84,
+    "std_hu": 79,
+    "rel_hu_kidney": 82,
+    "logvox": 75
+  },
+  "multivariate_interior_pct": 78,
+  "maha_median_fp": 1.95,
+  "maha_median_cyst": 1.59,
+  "overlap": {
+    "mean_hu": 0.86,
+    "std_hu": 0.71,
+    "rel_hu_kidney": 0.8,
+    "logvox": 0.62
+  }
+}
