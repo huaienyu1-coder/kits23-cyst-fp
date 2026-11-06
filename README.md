@@ -1,11 +1,12 @@
-# Cyst false positives as an information limit in a KiTS23 segmentation pipeline
+# Diagnosing a metric-invisible cyst false-positive mode in a KiTS23 segmentation pipeline
 
 > **Status: released (`v1.0`).** This is the version of record accompanying the submitted
-> manuscript. All reported numbers are final, validated against the full five-fold
-> cross-validation; every load-bearing number in the paper is backed by an artifact in
-> `results/` regenerable with the scripts here.
+> manuscript. All reported numbers are final, with the cyst false-positive behaviour checked
+> across five independent random hold-out splits (fold 0 = the primary 391/98 hold-out);
+> every load-bearing number in the paper is backed by an artifact in `results/` regenerable
+> with the scripts here.
 
-Code and analyses accompanying the paper *Under the aggregate: a mechanism-level diagnosis of a persistent cyst false-positive mode in a KiTS23 segmentation pipeline* (Huai-En Yu, Chung-Shan Yu).
+Code and analyses accompanying the paper *Diagnosing a metric-invisible cyst false-positive mode in a KiTS23 segmentation pipeline* (Huai-En Yu, Chung-Shan Yu), under review at *Journal of Medical Imaging* (SPIE). Pre-registered protocols are archived at the Open Science Framework: https://osf.io/hzgj6 .
 This is a **diagnostic** study: rather than pushing a leaderboard score, it shows that the
 residual **cyst false positives** of a strong second-place KiTS23 pipeline are an
 *information limit* (single-phase acquisition + annotation), not a tuning failure — and it
@@ -25,8 +26,10 @@ analysis/      survival-test evaluators (FTL, agreement, cascade, confidence, cl
                keystone learned-representation probe (frozen DINOv2 / RAD-DINO, plus a
                size-matched control; supplement S11) shipped with its pre-extracted centre-slice
                patches (fm_patches.npz) so the probe AUCs reproduce offline; residual-FP
-               anatomical-location analysis (fp_component_list.csv)
-prereg/        pre-registered protocols (classifier, OSF-archived; agreement corroboration)
+               anatomical-location analysis (fp_component_list.csv);
+               cross-fold recomputes (taxonomy_5fold, typeX_5fold_recompute, location_5fold)
+               and the 851-feature PyRadiomics separability (beta_B_pyradiomics)
+prereg/        pre-registered protocols (classifier, OSF-archived at osf.io/hzgj6; agreement corroboration)
 results/       result artifacts (JSON) backing every load-bearing number in the paper
 figures/       released figure assets (generation scripts in analysis/)
 ```
@@ -52,8 +55,10 @@ obtain three upstream components yourself:
 The **KiTS23** dataset (fully de-identified, public) is available via the official
 challenge repository (https://github.com/neheller/kits23) and
 https://kits-challenge.org/kits23/ . No patient data are contained in this repository.
-The case-level train/hold-out split (seed 45, 391/98) and the 5-fold CV split are provided
-as JSON under `analysis/` so every reported number is reproducible.
+The case-level splits (seed 45; fold 0 = the primary 391/98 hold-out, plus the five
+independent random splits used for the cross-fold checks) are provided as
+`analysis/splits_final.json` — case identifiers only, no patient data — so every reported
+number is reproducible.
 
 ## Reproduce (outline)
 

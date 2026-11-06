@@ -5,8 +5,8 @@
 # Waits for the GPU to free (no nnUNetv2_train running), then runs N extra seeds for lam in {l3,l1},
 # fullres-swap pipeline + eval each, archiving fold_0 -> fold_0_seed{k}.
 set -uo pipefail
-cd /home/huaienyu/KiTS23
-source venv/bin/activate
+cd "${KITS23_ROOT:-$HOME/KiTS23}"
+source "${KITS23_ROOT:-$HOME/KiTS23}/venv/bin/activate"
 RESU="nnUNet_results/Dataset500_KiTS23"
 BASE_FULL="$RESU/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/checkpoint_final.pth"
 EXTRA_SEEDS=3          # 每 λ 額外 seed 數(原單次跑=seed1)

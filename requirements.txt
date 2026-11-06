@@ -1,0 +1,15 @@
+# Core analysis / evaluation
+numpy
+scipy
+scikit-learn
+nibabel
+SimpleITK
+matplotlib
+# 851-feature radiomic analysis (beta_B_pyradiomics.py)
+pyradiomics
+# Frozen foundation-model probes (analysis/fm_*_separability.py; GPU recommended)
+torch
+timm
+transformers
+# Segmentation backbone (obtain + follow upstream install): nnunetv2
+# see https://github.com/MIC-DKFZ/nnUNet

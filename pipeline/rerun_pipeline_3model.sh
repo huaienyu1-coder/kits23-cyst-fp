@@ -5,14 +5,14 @@
 # pass the FTL validation folder as FULLRES_SRC.
 #   ./rerun_pipeline.sh <FULLRES_SRC_DIR> <TAG>
 set -euo pipefail
-source /home/huaienyu/KiTS23/venv/bin/activate
-cd /home/huaienyu/KiTS23
+source "${KITS23_ROOT:-$HOME/KiTS23}/venv/bin/activate"
+cd "${KITS23_ROOT:-$HOME/KiTS23}"
 FULLRES_SRC="${1:-holdout_pipeline/raw_predictions/fullres}"
 LOWRES_SRC="${3:-holdout_pipeline/raw_predictions/lowres_plain}"
 RESENC_SRC="${4:-holdout_pipeline/raw_predictions/resenc_l}"
 TAG="${2:-repro}"
-REPRO="/home/huaienyu/KiTS23/repro_check/scratch_${TAG}"
-GT="/home/huaienyu/KiTS23/nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations"
+REPRO="${KITS23_ROOT:-$HOME/KiTS23}/repro_check/scratch_${TAG}"
+GT="${KITS23_ROOT:-$HOME/KiTS23}/nnUNet_preprocessed/Dataset500_KiTS23/gt_segmentations"
 PP="KiTS23-2nd-place/nnunetv2/custom/postprocess.py"
 PT="KiTS23-2nd-place/nnunetv2/custom/post_process_tumor.py"
 ts(){ date '+%F %T'; }
@@ -44,7 +44,7 @@ echo "[$(ts)] step2 outputs: pairA=$(ls "$S2A" 2>/dev/null|wc -l)  pairB=$(ls "$
 
 echo "[$(ts)] --- majority_vote([pairA,pairB], num_majority=2) -> hard_intersection ---"
 HI="$REPRO/hard_intersection"
-python -c "import sys; sys.path.insert(0,'/home/huaienyu/KiTS23'); from p5_ablation import majority_vote; majority_vote(['$S2A','$S2B'], '$HI', 2)"
+python -c "import sys; sys.path.insert(0,'${KITS23_ROOT:-$HOME/KiTS23}'); from p5_ablation import majority_vote; majority_vote(['$S2A','$S2B'], '$HI', 2)"
 echo "[$(ts)] ### CHECKPOINT: hard_intersection (expect 0.9022 / 19-of-48) ###"
 python repro_check/eval_hec_cystfp.py "$HI"
 
