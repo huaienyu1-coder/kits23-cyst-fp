@@ -199,6 +199,19 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 > 打開時，按鈕顯示「打開」就代表你裝的就是這個。App Store 評分數是**依國家／地區分開計算**的，
 > 加上 iPhone 版 2025 年才上架，台灣區評分數少是正常的。
 
+#### Brave 看 YouTube：影片下面全黑，沒有標題／留言／推薦影片
+
+這是 iPhone 版 Brave 的已知問題：Shields 擋掉了 YouTube 排版需要的程式（[Brave 社群回報，2026-04](https://community.brave.app/t/confirmation-youtube-interface-missing-due-to-shields-script-blocking-on-ios/651822)）。依序試：
+
+1. App Store 更新 Brave 到最新版，再重新整理頁面。
+2. 點網址列旁的獅子圖示，確認「**封鎖指令碼**」（Block Scripts）是**關閉**的；擋廣告強度用「標準」，不要用「積極」。
+3. 暫時關掉自己加的篩選清單（例如 CJX's Annoyance、AdGuard Chinese），重新整理看看。若恢復，再一個一個打開找出是哪個造成的。
+4. 臨時解法：點獅子圖示把 Shields 關掉 → 等幾秒 → 再打開 → 重新整理（關掉期間會有廣告）。
+5. 都不行：YouTube 改用 **Safari + uBlock Origin Lite** 看。
+
+另外，YouTube 網頁版**沒有**像 App 那樣「往下滑縮小影片」的功能，回首頁請點左上角 YouTube 標誌；
+想邊看邊逛，可以把影片切到全螢幕後按「子母畫面」按鈕。
+
 #### 網頁一直自動跳到「蝦皮購物」App
 
 原理：網頁上的廣告腳本把你導到蝦皮網址，而 iOS 的「通用連結」只要看到手機裝了蝦皮 App，就會直接把你帶進 App
