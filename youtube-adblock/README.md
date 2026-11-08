@@ -15,7 +15,7 @@
 | 電腦：**Chrome / Edge** | uBlock Origin **Lite** + SponsorBlock | ★★ 大多能擋，偶爾漏 |
 | 電腦：**Brave** | 內建 Shields 就會擋，不用另外裝 | ★★★ |
 | **Android** | ReVanced（改裝官方 App）／NewPipe／Firefox + uBlock Origin | ★★★ |
-| **iPhone / iPad** | Safari + uBlock Origin Lite，或 Brave 瀏覽器 | ★★（官方 App 內擋不了） |
+| **iPhone / iPad** | 改用 **Brave 瀏覽器**看 YouTube（或 Safari + uBlock Origin Lite） | ★★（官方 App 內擋不了） |
 | 家裡有 NAS／小主機 | 自架 Invidious（沒有廣告的 YouTube 網頁前端） | ★★（需要維護） |
 
 **為什麼 Chrome 只能用「Lite」？** 完整版 uBlock Origin 使用 Manifest V2 架構，Chrome 138 起預設停用，
@@ -107,6 +107,15 @@ powershell -ExecutionPolicy Bypass -File .\youtube-adblock.ps1 -Action Status
 
 ### macOS
 
+**最簡單的方法（建議，不用描述檔）**：看你用哪個瀏覽器，只裝一個就好——
+
+- **Safari**：App Store 安裝 [uBlock Origin Lite](https://apps.apple.com/app/id6745342698)（需 macOS 13.5 以上）→
+  打開 Safari → 選單列「Safari」→「設定⋯」→「延伸功能」→ 勾選 uBlock Origin Lite → 網站權限選「允許」。
+- **Chrome**：用 Chrome 打開 [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) →「加到 Chrome」→「新增擴充功能」。
+- **Firefox**：用 Firefox 打開 [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/) →「新增至 Firefox」。
+
+**進階：用描述檔一次裝好 Chrome／Edge／Firefox**
+
 1. 雙擊 **`macos/youtube-adblock.mobileconfig`**（會提示「已下載描述檔」）。
 2. 打開描述檔設定頁，點「YouTube 去廣告」→ **安裝** → 輸入電腦密碼：
    - macOS 14 以後：**系統設定 → 一般 → 裝置管理**
@@ -155,10 +164,34 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 
 ### iPhone / iPad
 
-官方 YouTube App 在 iOS 上**沒有辦法**擋廣告（除非越獄）。替代做法：
+> **先講清楚**：iPhone 上的**官方 YouTube App 沒有任何工具能擋廣告**（Apple 不允許其他 App 改動 YouTube App）。
+> 擋廣告工具只能在「瀏覽器」裡運作，所以做法是：**改用瀏覽器看 YouTube，把它當成 YouTube App 用**。
+> 介面跟 App 很像，登入 Google 帳號後訂閱、紀錄、播放清單都一樣。
 
-- **Safari + uBlock Origin Lite**（App Store，開發者 Raymond Hill）：設定 → App → Safari → 延伸功能（舊版 iOS：設定 → Safari → 延伸功能）→ 開啟，並允許 youtube.com。之後用 Safari 看 youtube.com。
-- **Brave 瀏覽器**（App Store）：內建擋廣告，也支援背景播放。
+#### 推薦：Brave 瀏覽器（最簡單，不用設定）
+
+1. App Store 安裝 [**Brave**](https://apps.apple.com/app/id1052879175)（免費）。
+2. 打開 Brave，網址列輸入 `youtube.com`，右上角登入你的 Google 帳號。廣告預設就會被擋掉。
+3. 把 YouTube 加到 Brave 的「我的最愛」，之後一打開 Brave 就能點進去。
+4. （選用）背景播放／鎖定畫面繼續聽：Brave 設定 →「媒體」（Media）→ 開啟「背景音訊」（Background Audio）。
+5. （選用）讓別人傳的 YouTube 連結（LINE、Messenger…）直接用 Brave 開：
+   - 設定 → App → 預設 App → 瀏覽器 App → 選 **Brave**；
+   - 長按 YouTube App →「移除 App」（不想刪可以先移到資料庫）。沒有 YouTube App 時，連結就會改用預設瀏覽器開。
+
+#### 也可以：Safari + uBlock Origin Lite（需要 iOS 18.5 以上）
+
+1. App Store 安裝 [**uBlock Origin Lite**](https://apps.apple.com/app/id6745342698)（開發者 Raymond Hill，免費）。
+2. 打開 設定 → App → Safari → 延伸功能 → uBlock Origin Lite → 開啟「**允許延伸功能**」，
+   網站權限選「**允許**」所有網站（給的權限不夠，YouTube 廣告會擋不乾淨）。
+3. 用 Safari 開 `youtube.com` 並登入。
+
+查 iOS 版本：設定 → 一般 → 關於本機 → iOS 版本。
+
+#### 不建議
+
+- **改 DNS／裝「全手機擋廣告」App**（AdGuard DNS、NextDNS 等）：擋不到 YouTube App 的廣告（廣告和影片來自同一個伺服器），還可能讓 YouTube 壞掉。
+- **側載改裝版 YouTube App**（uYou、YTLite 之類的 IPA）：要用電腦側載、免費帳號每 7 天要重簽一次，來源也難以確認安全，不適合一般使用者。
+- 想**繼續用官方 App 又沒廣告**，唯一的官方方法是 **YouTube Premium**（付費）。
 
 ---
 
