@@ -177,6 +177,8 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 5. （選用）讓別人傳的 YouTube 連結（LINE、Messenger…）直接用 Brave 開：
    - 設定 → App → 預設 App → 瀏覽器 App → 選 **Brave**；
    - 長按 YouTube App →「移除 App」（不想刪可以先移到資料庫）。沒有 YouTube App 時，連結就會改用預設瀏覽器開。
+   - **LINE** 預設用自己的內建瀏覽器開連結（擋不到廣告）：LINE 主頁 → 右上角齒輪「設定」→「LINE Labs」→
+     開啟「**使用預設瀏覽器開啟連結**」。
 
 #### 也可以：Safari + uBlock Origin Lite（需要 iOS 18.5 以上）
 
@@ -184,8 +186,14 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 2. 打開 設定 → App → Safari → 延伸功能 → uBlock Origin Lite → 開啟「**允許延伸功能**」，
    網站權限選「**允許**」所有網站（給的權限不夠，YouTube 廣告會擋不乾淨）。
 3. 用 Safari 開 `youtube.com` 並登入。
+4. 同一頁的延伸功能清單裡，**把其他擋廣告工具（例如 AdBlock 系列）關掉**，只留 uBlock Origin Lite，避免互相衝突。
 
 查 iOS 版本：設定 → 一般 → 關於本機 → iOS 版本。
+
+> 確認沒裝到山寨版：開發者要是 **Raymond Hill**，而且用官方連結
+> <https://apps.apple.com/app/ublock-origin-lite/id6745342698>（來自 [uBOL-home](https://github.com/uBlockOrigin/uBOL-home)）
+> 打開時，按鈕顯示「打開」就代表你裝的就是這個。App Store 評分數是**依國家／地區分開計算**的，
+> 加上 iPhone 版 2025 年才上架，台灣區評分數少是正常的。
 
 #### 不建議
 
