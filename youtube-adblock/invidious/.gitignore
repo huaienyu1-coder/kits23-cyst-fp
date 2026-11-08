@@ -1,0 +1,2 @@
+# Generated secrets from setup.sh - never commit.
+.env

@@ -1,0 +1,4 @@
+# Windows batch files must keep CRLF line endings; store them byte-for-byte.
+*.cmd -text
+# Shell scripts must keep LF so they run even from a Windows checkout (WSL / Git Bash).
+*.sh text eol=lf

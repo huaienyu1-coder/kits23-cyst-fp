@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  YouTube 去廣告：macOS 設定描述檔
+  雙擊安裝後，Chrome / Edge / Firefox 會自動安裝：
+    Chrome  : uBlock Origin Lite + SponsorBlock
+    Edge    : uBlock Origin Lite + SponsorBlock
+    Firefox : uBlock Origin（完整版）+ SponsorBlock
+  installation_mode = normal_installed：自動安裝，但仍可在瀏覽器裡停用。
+  移除：系統設定 → 一般 → 裝置管理（舊版為「隱私權與安全性 → 描述檔」）→ 選此描述檔 → 移除。
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadDisplayName</key>
+  <string>YouTube 去廣告（uBlock Origin + SponsorBlock）</string>
+  <key>PayloadDescription</key>
+  <string>自動為 Chrome、Edge、Firefox 安裝 uBlock Origin / uBlock Origin Lite 與 SponsorBlock。可隨時在「裝置管理」移除。</string>
+  <key>PayloadIdentifier</key>
+  <string>local.youtube-adblock</string>
+  <key>PayloadOrganization</key>
+  <string>youtube-adblock</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>88bd89c5-a5a4-4381-9c13-6c4a649d207a</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadContent</key>
+  <array>
+
+    <!-- Google Chrome -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.google.Chrome</string>
+      <key>PayloadIdentifier</key>
+      <string>local.youtube-adblock.chrome</string>
+      <key>PayloadUUID</key>
+      <string>79afdd0d-b15f-4071-955e-73eaec95bcd1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadDisplayName</key>
+      <string>Google Chrome：uBlock Origin Lite + SponsorBlock</string>
+      <key>ExtensionSettings</key>
+      <dict>
+        <key>ddkjiahejlhfcafbddmgiahcphecmpfh</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>update_url</key>
+          <string>https://clients2.google.com/service/update2/crx</string>
+        </dict>
+        <key>mnjggcdmjocbbbhaepdhchncahnbgone</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>update_url</key>
+          <string>https://clients2.google.com/service/update2/crx</string>
+        </dict>
+      </dict>
+    </dict>
+
+    <!-- Microsoft Edge -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.microsoft.Edge</string>
+      <key>PayloadIdentifier</key>
+      <string>local.youtube-adblock.edge</string>
+      <key>PayloadUUID</key>
+      <string>06560ae5-1b46-4d07-a90e-15ef2db5ee1a</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadDisplayName</key>
+      <string>Microsoft Edge：uBlock Origin Lite + SponsorBlock</string>
+      <key>ExtensionSettings</key>
+      <dict>
+        <key>cimighlppcgcoapaliogpjjdehbnofhn</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>update_url</key>
+          <string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+        </dict>
+        <key>mbmgnelfcpoecdepckhlhegpcehmpmji</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>update_url</key>
+          <string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+        </dict>
+      </dict>
+    </dict>
+
+    <!-- Mozilla Firefox -->
+    <dict>
+      <key>PayloadType</key>
+      <string>org.mozilla.firefox</string>
+      <key>PayloadIdentifier</key>
+      <string>local.youtube-adblock.firefox</string>
+      <key>PayloadUUID</key>
+      <string>eed874e8-c6e1-4e55-a022-9c60a3f7d438</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadDisplayName</key>
+      <string>Firefox：uBlock Origin + SponsorBlock</string>
+      <key>EnterprisePoliciesEnabled</key>
+      <true/>
+      <key>ExtensionSettings</key>
+      <dict>
+        <key>uBlock0@raymondhill.net</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>install_url</key>
+          <string>https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi</string>
+        </dict>
+        <key>sponsorBlocker@ajay.app</key>
+        <dict>
+          <key>installation_mode</key>
+          <string>normal_installed</string>
+          <key>install_url</key>
+          <string>https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi</string>
+        </dict>
+      </dict>
+    </dict>
+
+  </array>
+</dict>
+</plist>
