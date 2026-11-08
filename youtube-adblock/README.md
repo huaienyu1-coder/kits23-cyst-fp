@@ -186,7 +186,11 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 2. 打開 設定 → App → Safari → 延伸功能 → uBlock Origin Lite → 開啟「**允許延伸功能**」，
    網站權限選「**允許**」所有網站（給的權限不夠，YouTube 廣告會擋不乾淨）。
 3. 用 Safari 開 `youtube.com` 並登入。
-4. 同一頁的延伸功能清單裡，**把其他擋廣告工具（例如 AdBlock 系列）關掉**，只留 uBlock Origin Lite，避免互相衝突。
+4. 擋台灣網站的廣告：點 uBOL 圖示 → 齒輪 →「Filter lists」→ 往下到「Regions, languages」，勾選 **AdGuard Chinese（中文）**。
+5. 原本裝的其他擋廣告 App（例如 AdBlock 系列）：建議**先關掉、只用 uBOL 測幾天**。如果某些網站反而擋得比較差，
+   在 Safari 裡兩個**同時開也可以**（擋的效果會疊加）；缺點是網站壞掉時比較難判斷是哪一個造成的。
+
+> 注意：Safari 的擋廣告工具**只在 Safari 裡有效**。如果預設瀏覽器是 Brave，那就要看 Brave 自己的擋廣告（見下方「蝦皮跳轉」）。
 
 查 iOS 版本：設定 → 一般 → 關於本機 → iOS 版本。
 
@@ -194,6 +198,17 @@ Flatpak 版的瀏覽器讀不到這些路徑，請改用方案 A 手動安裝。
 > <https://apps.apple.com/app/ublock-origin-lite/id6745342698>（來自 [uBOL-home](https://github.com/uBlockOrigin/uBOL-home)）
 > 打開時，按鈕顯示「打開」就代表你裝的就是這個。App Store 評分數是**依國家／地區分開計算**的，
 > 加上 iPhone 版 2025 年才上架，台灣區評分數少是正常的。
+
+#### 網頁一直自動跳到「蝦皮購物」App
+
+原理：網頁上的廣告腳本把你導到蝦皮網址，而 iOS 的「通用連結」只要看到手機裝了蝦皮 App，就會直接把你帶進 App
+（Safari、Brave 都一樣，iOS 沒有總開關可以關）。對策：
+
+1. **最徹底**：不常用蝦皮 App 就刪掉。之後就算被導向，也只會在瀏覽器裡開蝦皮網頁，關掉那個分頁即可；要買東西用 shopee.tw 網頁版。
+2. **要留著 App**：靠擋廣告工具把導向腳本擋掉，並加上中文區域清單：
+   - Safari：uBOL 勾選 **AdGuard Chinese（中文）**（見上方）。
+   - Brave：設定 →「Brave Shields 與隱私權」→「內容篩選」（Content filtering）→ 開啟名稱含「中文／Chinese」的篩選清單。
+3. 只有某一個網站會跳：長按該網站上的蝦皮連結 → 選「在 Safari 中打開」，iOS 會記住這個網域以後都用瀏覽器開。
 
 #### 不建議
 
